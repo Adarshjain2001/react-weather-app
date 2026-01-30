@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  background: #222222;
+  color: #FAF3E1;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 320px;
+  background: #FA8112;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.search {
+  display: flex;
+  gap: 8px;
+}
+
+.search input {
+  flex: 1;
+  padding: 10px 12px;
+  border: none;
+  background: #F5E7C6;
+  color: #222222;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.search input::placeholder {
+  color: #222222;
+  opacity: 1;
+}
+
+.search input:-webkit-autofill {
+  -webkit-text-fill-color: #222222;
+  box-shadow: 0 0 0px 1000px #F5E7C6 inset;
+}
+
+
+.search button {
+  color: #222222;
+  border: none;
+  background: #F5E7C6;
+  border-radius: 8px;
+  padding: 0 14px;
+  cursor: pointer;
+}
+
+.geo {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background: none;
+  color: #FAF3E1;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.city {
+  font-size: 14px;
+  color: #FAF3E1;
+}
+
+h1 {
+  font-size: 64px;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.desc {
+  font-size: 14px;
+  color: #FAF3E1;
+}
+
+.stats {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #FAF3E1;
+}
